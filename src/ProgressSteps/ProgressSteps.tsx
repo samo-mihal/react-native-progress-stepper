@@ -18,7 +18,6 @@ interface ProgressStepsProps {
   completedCheckColor?: string;
   progressBarColor?: string;
   disabledStepIconColor?: string;
-  labelFontFamily?: string;
   labelColor?: string;
   completedLabelColor?: string;
   completedStepNumColor?: string;
@@ -40,7 +39,6 @@ const ProgressSteps: React.FC<ProgressStepsProps> = ({
   completedCheckColor = undefined,
   progressBarColor = undefined,
   disabledStepIconColor = undefined,
-  labelFontFamily = undefined,
   labelColor = undefined,
   completedLabelColor = undefined,
   completedStepNumColor = undefined,
@@ -80,7 +78,6 @@ const ProgressSteps: React.FC<ProgressStepsProps> = ({
             completedCheckColor={completedCheckColor}
             progressBarColor={progressBarColor}
             disabledStepIconColor={disabledStepIconColor}
-            labelFontFamily={labelFontFamily}
             labelColor={labelColor}
             completedLabelColor={completedLabelColor}
             completedStepNumColor={completedStepNumColor}
